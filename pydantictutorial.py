@@ -1,6 +1,6 @@
-# https://www.youtube.com/watch?v=XIdQ6gO3Anc
+link ="https://www.youtube.com/watch?v=XIdQ6gO3Anc"
 
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantictutorial import BaseModel, EmailStr, field_validator
 
 class User(BaseModel):
     name: str
